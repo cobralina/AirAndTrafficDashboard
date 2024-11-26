@@ -1,0 +1,28 @@
+.btn_teritary {
+    text-align:center;
+    color: var(--mm-black);
+    font-family: "MM Source Sans 3", Helvetica, Arial, serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15.4px;
+    height: 19px;
+    stroke: var(--mm-black);
+    letter-spacing: -0.1px;
+    padding: 1px;
+    padding-bottom:4px;
+    border:none;
+    background-color: var(--mm-white);
+    border-bottom:1px solid var(--mm-black);
+    margin:0 auto;
+    cursor:pointer;
+    
+    &:a {
+        color: var(--mm-black);
+    }
+  
+    &:hover {
+        color: var(--mm-black-hover);
+        border-bottom:1px solid var(--mm-black-hover);
+
+    }
+}

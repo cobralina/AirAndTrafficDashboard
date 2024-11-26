@@ -1,0 +1,23 @@
+{
+  "name": "rheinmain",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "stage": "vite build --mode stage",
+    "release": "vite build --mode production"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "sass": "^1.77.4",
+    "svelte": "^4.2.12",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "node-modules": "^1.0.1"
+  }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhein Main Dashboard</title>
+    <script type="module" crossorigin src="https://dynamic.faz.net/red/2024/rheinmain/release/js/app.js"></script>
+    <link rel="stylesheet" crossorigin href="https://dynamic.faz.net/red/2024/rheinmain/release/css/index.css">
+  </head>
+  <body>
+    <div id="appRheinMain" data-rs="adsf" data-outputmode="faznet"></div>
+  </body>
+</html>
+
+<script>
+  // outputmode via url#
+  var hashy = window.location.hash;
+  if(hashy) {
+  document.getElementById("appRheinMain").setAttribute("data-outputmode", hashy.substring(1));
+}
+
+  // iframe
+  var sendPostMessageRM = () => {
+    var iframeHeightRM = document.body.scrollHeight;
+    if (iframeHeightRM) {
+      parent.postMessage({ iframeHeight: iframeHeightRM }, "https://www.testfaz.net");
+      parent.postMessage({ iframeHeight: iframeHeightRM }, "https://www.faz.net");
+      parent.postMessage({ iframeHeight: iframeHeightRM }, "https://m.faz.net");
+      parent.postMessage({ iframeHeight: iframeHeightRM }, "https://zeitung.faz.net");
+      parent.postMessage({ iframeHeight: iframeHeightRM }, "https://cms.faz.net");
+    }
+  };
+  window.onload = () => sendPostMessageRM();
+  window.onresize = () => sendPostMessageRM();
+  setTimeout(function() {
+      sendPostMessageRM();
+  }, 1000);
+
+</script>

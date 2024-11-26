@@ -1,0 +1,27 @@
+@import "fonts-and-colors";
+@import "buttons";
+@import "vizbox";
+@import "header";
+@import "footer";
+@import "airquality";
+
+
+
+#appRheinMain {
+  margin: 0 auto;
+  padding: 20px;
+  max-width:920px;
+  background-color: var(--mm-white);
+  font-family: "MM Source Sans 3", Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-weight: 400;
+  color: var(--mm-black);
+  @media (max-width:$tabletbreak) {  
+    padding:40px;
+ }
+ @media (max-width:$mobilebreak) {  
+  padding:0px;
+}
+}
+
+

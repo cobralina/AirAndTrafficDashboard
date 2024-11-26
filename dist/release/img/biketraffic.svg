@@ -1,0 +1,18 @@
+<svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    @media (prefers-color-scheme: dark) {
+      .infostroke {
+        stroke: #FFFFFF;
+        fill:#212529;
+      }
+    }
+  </style>
+<g>
+<path class="infostroke" d="M7.77002 8.08796H12.96L11.21 3.67796H8.93002" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="infostroke" d="M3.91001 14.388C5.71599 14.388 7.18001 12.9239 7.18001 11.118C7.18001 9.31199 5.71599 7.84796 3.91001 7.84796C2.10404 7.84796 0.640015 9.31199 0.640015 11.118C0.640015 12.9239 2.10404 14.388 3.91001 14.388Z" fill="white" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="infostroke" d="M5.35001 5.88797H8.25001" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="infostroke" d="M6.52002 5.88797L8.25002 11.118" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="infostroke" d="M14.09 14.388C15.896 14.388 17.36 12.9239 17.36 11.118C17.36 9.31199 15.896 7.84796 14.09 7.84796C12.284 7.84796 10.82 9.31199 10.82 11.118C10.82 12.9239 12.284 14.388 14.09 14.388Z" fill="white" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="infostroke" d="M3.91 11.118H13.94" stroke="#212529" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

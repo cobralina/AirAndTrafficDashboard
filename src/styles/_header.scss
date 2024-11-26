@@ -1,0 +1,34 @@
+.header {
+    margin-top:-20px;
+    h1 {
+        font-family: "MM Source Serif 4", Georgia, 'Times New Roman', Times, serif;
+        font-size:32px;
+        line-height:38.4px;
+        text-align: center;
+        font-weight: 500;
+    }
+    h2 {
+        font-size:13px;
+        line-height:21px;
+        margin-top:-18px;
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    @media (max-width:$tabletbreak) {  
+        margin-top:-10px;
+        h1 {
+            font-size:22px;
+            line-height:26.4px;
+        }
+        h2 {
+            margin-top:-10px;
+            line-height:16px;
+        }
+     }
+
+     @media (max-width:$mobilebreak) {  
+        margin-top:-20px;
+     }
+   
+}

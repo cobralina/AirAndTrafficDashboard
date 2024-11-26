@@ -1,0 +1,11 @@
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.5 13.5">
+<style>
+    @media (prefers-color-scheme: dark) {
+      .infostroke {
+        stroke: #FFFFFF;
+        fill:#FFFFFF;
+      }
+    }
+  </style>
+<path class="infostroke"  fill="#212529" stroke="#212529" stroke-width="0.3" d="m.22.22C.51-.07.99-.07,1.28.22l12,12c.29.29.29.77,0,1.06s-.77.29-1.06,0L.22,1.28C-.07.99-.07.51.22.22Z"/>
+<path class="infostroke"  fill="#212529" stroke="#212529" stroke-width="0.3" d="m13.28.22c.29.29.29.77,0,1.06L1.28,13.28c-.29.29-.77.29-1.06,0s-.29-.77,0-1.06L12.22.22c.29-.29.77-.29,1.06,0Z"/></svg>
